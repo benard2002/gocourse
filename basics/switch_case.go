@@ -1,4 +1,4 @@
-package main
+package basics
 
 import "fmt"
 
@@ -74,6 +74,8 @@ func main() {
 	checkType("Hell")
 	checkType(true)
 }
+
+// nb fallthrough cant be used in a type switch
 
 func checkType(x any) {
 	// x interface => that is for any datatypes
